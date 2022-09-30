@@ -1,0 +1,75 @@
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li{
+    margin: 5px;
+}
+
+input{
+    margin-right: 10px;
+    border: solid black 4px;
+    margin-bottom: 10px;
+} 
+
+form{
+    width: 95%;
+    padding: 10px;
+    padding-right: 40px;
+    margin: auto;
+    border: solid black 4px;
+    border-radius: 10px;
+}
+
+.table2{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    
+}
+
+.table2 {
+    width: 85%;
+    margin: auto;
+}
+
+.table2 tr{
+    padding: 15px;
+    margin-bottom:5px;
+    height: 40px;
+}
+
+.coverimg{
+    width: 65%;
+    margin: auto;
+}
+
+@media screen{
+
+}
+
+@media print{
+    nav {
+        visibility: hidden;
+    }
+    #printSection, #printSection *{
+        visibility: visible;
+    }
+    #printSection{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
